@@ -1,0 +1,25 @@
+exercise1.css
+*{
+    box-sizing: border-box;
+}
+.my-button{
+    background: rgb(50,150,250);
+    color:white;
+    cursor:pointer;
+  }
+  
+.my-button:hover{
+    background:white;
+    color:rgb(50,150,250);
+    width: 50%;
+    height: 50%;
+}
+
+.my-button:focus{
+    background:black;
+    transform: rotate(-135deg);
+
+}
+.smiley{
+    font-size:42px;
+}
